@@ -1,0 +1,96 @@
+{
+  "configVersion": 1,
+  "timestamp": 1610113981608,
+  "index": "https://malberti-uoc.github.io/javascript-pac5/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://malberti-uoc.github.io/javascript-pac5/favicon.ico",
+        "https://malberti-uoc.github.io/javascript-pac5/index.html",
+        "https://malberti-uoc.github.io/javascript-pac5/main-es2015.5391bb089a6600398350.js",
+        "https://malberti-uoc.github.io/javascript-pac5/main-es5.5391bb089a6600398350.js",
+        "https://malberti-uoc.github.io/javascript-pac5/manifest.webmanifest",
+        "https://malberti-uoc.github.io/javascript-pac5/polyfills-es2015.f332a089ad1600448873.js",
+        "https://malberti-uoc.github.io/javascript-pac5/polyfills-es5.177e85a9724683782539.js",
+        "https://malberti-uoc.github.io/javascript-pac5/runtime-es2015.0dae8cbc97194c7caed4.js",
+        "https://malberti-uoc.github.io/javascript-pac5/runtime-es5.0dae8cbc97194c7caed4.js",
+        "https://malberti-uoc.github.io/javascript-pac5/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.0-beta1\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://malberti-uoc.github.io/javascript-pac5/assets/css/animate.css",
+        "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-128x128.png",
+        "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-144x144.png",
+        "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-152x152.png",
+        "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-192x192.png",
+        "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-384x384.png",
+        "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-512x512.png",
+        "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-72x72.png",
+        "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "countries-api",
+      "patterns": [
+        "https:\\/\\/restcountries\\.eu\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 50,
+      "maxAge": 600000,
+      "timeoutMs": 2000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://malberti-uoc.github.io/javascript-pac5/assets/css/animate.css": "bc96496831f4df311443b8e3d76cfc17db53a988",
+    "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-128x128.png": "3bd2b3d17af5f693e7844f18d1d45134d0603874",
+    "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-144x144.png": "8aa6e3d48f1a3f55533e43f2f489ecfaabcc0dcc",
+    "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-152x152.png": "d7efaf4c76bff558e0bd3ddd87adbe3c40631d46",
+    "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-192x192.png": "beb66825c2c3a40a802c0b218b7d94ae346bc1be",
+    "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-384x384.png": "51a1dc4c4316431c755ac80568bb97f34a2fc6e2",
+    "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-512x512.png": "2b809453e619ebc1d48b53cc94c0d427d52cdf17",
+    "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-72x72.png": "eb706145401002b89696df95785aa77242666097",
+    "https://malberti-uoc.github.io/javascript-pac5/assets/icons/icon-flag-96x96.png": "5bd46dc29cc363f22eb75d3f0c5559e2589169e2",
+    "https://malberti-uoc.github.io/javascript-pac5/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://malberti-uoc.github.io/javascript-pac5/index.html": "3ecc7b74b77be4d4fe85abdab842cb5568bf1bf9",
+    "https://malberti-uoc.github.io/javascript-pac5/main-es2015.5391bb089a6600398350.js": "540beac8f69e96646ee52fcbbdc019b89d8ef755",
+    "https://malberti-uoc.github.io/javascript-pac5/main-es5.5391bb089a6600398350.js": "e77567c5a5d31a421681247e05027c030462b304",
+    "https://malberti-uoc.github.io/javascript-pac5/manifest.webmanifest": "0a6ce1a9c37ecce49c9e09629962efd4f0f6d2ce",
+    "https://malberti-uoc.github.io/javascript-pac5/polyfills-es2015.f332a089ad1600448873.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "https://malberti-uoc.github.io/javascript-pac5/polyfills-es5.177e85a9724683782539.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "https://malberti-uoc.github.io/javascript-pac5/runtime-es2015.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://malberti-uoc.github.io/javascript-pac5/runtime-es5.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://malberti-uoc.github.io/javascript-pac5/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
