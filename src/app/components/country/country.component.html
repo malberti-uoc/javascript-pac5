@@ -1,0 +1,21 @@
+<div class="container mt-5">
+    <div *ngIf="country" class="row">
+        <div class="col-md-6">
+            <p><strong>Identifier:</strong> {{ country.alpha3Code }}</p>
+            <p><strong>Name:</strong> {{ country.name }}</p>
+            <p><strong>Capital:</strong> {{ country.capital }}</p>
+            <p><strong>Region:</strong> {{ country.region }}</p>
+            <p><strong>Subregion:</strong> {{ country.subregion }}</p>
+            <p><strong>Area:</strong> {{ country.area }}</p>
+            <p><strong>Population:</strong> {{ country.population }}</p>
+        </div>
+        <div class="col-md-6">
+            <img style="width: 50%;" class="rounded" src="{{ country.flag }}" alt="{{ country.name }}">
+        </div>
+    </div>
+    <div class="row py-5">
+        <div class="col-md-12">
+            <a class="btn btn-danger" routerLink="/">Back</a>
+        </div>
+    </div>
+</div>
